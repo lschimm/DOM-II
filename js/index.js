@@ -58,3 +58,18 @@ colorNav.forEach(j => {
 // })
 
 // const img1 = document.querySelector('.img-content')
+
+
+const color = document.querySelector('.content-destination')
+
+color.addEventListener('mouseenter', function(event) {
+        color.style.color= "orange";
+})
+
+// const eventStop = (event) => { event.stopPropagation() };
+
+const head = document.querySelector('.container .logo-heading')
+
+head.addEventListener('click', function(event) {
+    head.style.color = "lightgray";
+})
