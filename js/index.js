@@ -45,6 +45,12 @@ colorNav.forEach(d => {
     })
 })
 
+colorNav.forEach(j => {
+    j.addEventListener('click', (event) => {
+        event.preventDefault();
+    })
+})
+
 // colorNav.forEach(f => {
 //     f.addEventListener('blur', () => {
 //         f.style.color = "";
