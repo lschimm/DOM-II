@@ -13,6 +13,18 @@ btn.forEach(c => {
     })
 })
 
+btn.forEach(c => {
+    c.addEventListener('dblclick', () => {
+        c.style.background = "#33e3f4";
+    })
+})
+
+btn.forEach(e => {
+    e.addEventListener('wheel', () => {
+        e.style.color = "white";
+    })
+})
+
 const colorNav = document.querySelectorAll('.main-navigation .container .nav a')
 
 colorNav.forEach(d => {
@@ -33,6 +45,10 @@ colorNav.forEach(d => {
     })
 })
 
+// colorNav.forEach(f => {
+//     f.addEventListener('blur', () => {
+//         f.style.color = "";
+//     })
+// })
 
-
-// const img1 = document.querySelector(.'')
+// const img1 = document.querySelector('.img-content')
